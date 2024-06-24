@@ -29,4 +29,22 @@ ul.dropdown-menu li:hover {
   display: block;
 }
 
+/* ANIMATION */
+/*make the dropdown menu bounce*/
+@keyframes bounce {
+  0% {
+    transform: scaleY(0.5);
+  }
+  80% {
+    transform: scaleY(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
+.dropdown-menu {
+  transform-origin: top;
+  animation-name: bounce;
+  animation-duration: .75s;
+}
