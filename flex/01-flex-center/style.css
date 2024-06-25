@@ -14,15 +14,9 @@
   height: 80px;
 }
 
-.container {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.box {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+/* center .box inside .container using flex */
+.container, .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
