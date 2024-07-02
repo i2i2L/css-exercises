@@ -27,8 +27,8 @@ a {
 /* make a flex container for the header */
 .header, ul {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 8px;
   gap: 16px;
 }
-
