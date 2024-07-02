@@ -23,3 +23,12 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+/* make a flex container for the header */
+.header, ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  gap: 16px;
+}
+
