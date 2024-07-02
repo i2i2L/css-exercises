@@ -15,7 +15,7 @@
 }
 
 /* center .box inside .container using flex */
-.container, .box {
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
