@@ -46,3 +46,9 @@ a {
 ul {
   list-style-type: none;
 }
+/* create left and right nested flex containers */
+.header {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
