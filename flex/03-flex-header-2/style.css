@@ -52,3 +52,11 @@ ul {
   align-items:center;
   justify-content: space-between;
 }
+
+.left, .right, .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  gap: 16px;
+}
