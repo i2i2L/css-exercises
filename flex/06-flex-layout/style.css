@@ -27,10 +27,34 @@ input {
 
 /* my solution */
 
-/*remove the bullet points from the lists */
 .left-links {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
 }
 .right-links {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+  padding-right: 40px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
 }
