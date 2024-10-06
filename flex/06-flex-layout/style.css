@@ -24,3 +24,13 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* my solution */
+
+/*remove the bullet points from the lists */
+.left-links {
+  list-style-type: none;
+}
+.right-links {
+  list-style-type: none;
+}
