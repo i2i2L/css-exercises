@@ -43,7 +43,7 @@ body {
   font-size: 24px;
   font-weight: bold;
   padding-left: 8px;
-  }
+}
 .content {
   display: flex;
   flex: 10;
@@ -53,4 +53,17 @@ body {
   flex: 1;
   align-items: center;
   justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 8px;
+  gap: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
