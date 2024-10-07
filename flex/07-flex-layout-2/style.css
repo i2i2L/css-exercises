@@ -40,9 +40,9 @@ body {
   display: flex;
   align-items: center;
   flex: content;
-  font-size: 24px;
-  font-weight: bold;
-  padding-left: 8px;
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
 }
 .content {
   display: flex;
@@ -62,8 +62,27 @@ ul {
   padding-left: 8px;
   gap: 8px;
 }
-
 a {
+  font-size: 24px;
   text-decoration: none;
   color: white;
+}
+
+.sidebar {
+  width: 300px;
+  padding: 16px;
+}
+
+.cards div {
+  max-height: 300px;
+  max-width: 300px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+  gap: 24px;
+}
+.card {
+  padding: 16px;
 }
