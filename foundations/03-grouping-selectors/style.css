@@ -1,4 +1,15 @@
 .buttons {
     font-size: 28px;
     font-family: Helvetica, "Times New Roman", sans-serif;
+    padding: 10px;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: yellow;
+    color: black;
 }
